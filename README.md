@@ -40,10 +40,10 @@ Simple example:
         $(document).ready(function start(){
            E.vents({
                'click #first': function() {
-                   alert("Be Host!");
+                   alert("You clicked the first button!");
                },
                'click #second': function() {
-                   alert("Connect!");
+                   alert("You clicked the second button!");
                }
            });
         });
