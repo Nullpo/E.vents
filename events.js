@@ -1,5 +1,4 @@
-
-n(){
+E = (function(){
   function parseLine(line){
     var regex = line.match(/^(\w+)\s(.+)$/);
     return {
